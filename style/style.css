@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 body{
@@ -15,12 +17,10 @@ body{
 .header{
     margin: auto;
     width: 80%;
-    height: 190px;
     border: 1px black solid;
     position: -webkit-sticky;
     position: sticky;   
     top: 0;
-    transition: 0.01s;
     background-color: white;
 }
 
@@ -31,8 +31,7 @@ body{
     border: 1px black solid;
 }
 
-.navbar{
-    border: 1px black solid;
+#navbar{
     width: 924px;
     height: 50px;
     float: right;
@@ -40,10 +39,50 @@ body{
     margin-right: 6px;
 }
 
-.dropdown-toggle{
-    margin-bottom: -3px;
+.nav{
+    font-weight: 400;
+    font-size: 18px;
+}
+.search-box{
+    margin: auto;
+    margin-top: 17px;
+    margin-right: 5px;
+}
+.nav >li{
+    float: left;
 }
 
-.nav{
-    padding: px px;
+.nav >li >a{
+    display: block;
+    font-size: 19px;
+    padding: 8px 19px;
+    color: black;
+    margin-top: 11px;
+    transition: 1s;
+}
+.nav > li:hover{
+    background-color: #9aa5a5;
+}
+.nav > li:active{
+    background-color: #2ae9e9;
+}
+#navbar input[type=text] {
+    float: left;
+    border: none;
+    font-size: 17px;
+    padding: 3px 0px;
+    width: 180px;
+    height: 30px;
+}
+#navbar .search-box button {
+    float: right;
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+  
+#navbar .search-box button:hover {
+    background: #ccc;
 }
