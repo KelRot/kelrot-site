@@ -17,17 +17,11 @@ body{
 
 .header{
 	margin:auto;
-	width: 80%;
+	width: 1080px;
     position: -webkit-sticky;
     position: sticky;   
     top: 0;
     background-color: white;
-}
-
-.main{
-    margin: auto;
-    width: 80%;
-    height: 90%;
 }
 
 #navbar{
@@ -36,7 +30,6 @@ body{
 	margin-top: 100px;
 	float: right;
 }
-
 #navbar input[type=text]{
     float: left;
     border: none;
@@ -45,7 +38,6 @@ body{
     width: 160px;
     height: 20px;
 }
-
 .nav{
 	font-weight:400;
 	font-size: 16px;
@@ -60,7 +52,7 @@ body{
 .nav li:hover{
     background-color: #9aa5a5;
 }
-
+ 
 .nav li a{
 	display: block;
     font-size: 17px;
@@ -111,8 +103,9 @@ body{
     border: none;
 	cursor: pointer;
 }
-
+	
 .contents{
+	width: 1080px;
 	margin: auto;
 }
 
@@ -182,6 +175,8 @@ body{
 .footer{
 	height: 150px;
 	background-color: #a3a3a3;
+	width: 1080px;
+	margin: auto;
 }
 
 .footer li{
